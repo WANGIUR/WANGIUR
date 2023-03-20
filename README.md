@@ -14,9 +14,9 @@ Here are some ideas to get you started:
 -->
 
 ````js
-// Web
+// A Weber
 
-// namespace WANGIUR
+namespace WANGIUR;
 
 class About extends Me
 {
@@ -27,7 +27,7 @@ class About extends Me
         company: 'hz',
         position: 'Chongqing China'
       }
-    }
+    };
   }
 
   getDailyKnowledge()
@@ -40,8 +40,8 @@ class About extends Me
       React,
       Webpack,
       Vite,
-      Nodejs
-    ]
+      Nodejs,
+    ];
   }
 
   getFutureGoal()
