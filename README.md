@@ -1,5 +1,3 @@
-### Hi there 👋
-
 <!--
 **WANGIUR/WANGIUR** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -14,3 +12,42 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+````js
+// Web
+
+// namespace WANGIUR
+
+class About extends Me
+{
+  getCurrentWorkplace() 
+  {
+    return {
+      workplace: {
+        company: 'hz',
+        position: 'Chongqing China'
+      }
+    }
+  }
+
+  getDailyKnowledge()
+  {
+    return [
+      ECMAScript,
+      JavaScript,
+      TypeScript,
+      Vue,
+      React,
+      Webpack,
+      Vite,
+      Nodejs
+    ]
+  }
+
+  getFutureGoal()
+  {
+    return 'To contribute to open source.';
+  } 
+}
+````
+
