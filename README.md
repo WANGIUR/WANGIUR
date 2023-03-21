@@ -36,7 +36,7 @@ class About extends Me
       ECMAScript,
       JavaScript,
       TypeScript,
-      Vue,
+      Vuejs,
       React,
       Webpack,
       Vite,
