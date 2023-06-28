@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 -->
 
 ````js
-// A Weber
+- 💻
 
 namespace WANGIUR;
 
@@ -33,7 +33,6 @@ class About extends Me
   getDailyKnowledge()
   {
     return [
-      ECMAScript,
       JavaScript,
       TypeScript,
       Vuejs,
