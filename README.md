@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 -->
 
 ````js
-- 💻
+- 🖥
 
 namespace WANGIUR;
 
@@ -24,7 +24,7 @@ class About extends Me
   {
     return {
       workplace: {
-        company: 'hz',
+        company: 'HIS',
         position: 'Chongqing China'
       }
     };
@@ -38,7 +38,6 @@ class About extends Me
       Vuejs,
       React,
       Webpack,
-      Vite,
       Nodejs,
     ];
   }
