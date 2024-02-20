@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 -->
 
 ````js
-- 🖥
+- 💻 🖱
 
 namespace WANGIUR;
 
@@ -24,7 +24,7 @@ class About extends Me
   {
     return {
       workplace: {
-        company: 'HIS',
+        company: 'Unknown Factory',
         position: 'Chongqing China'
       }
     };
@@ -33,18 +33,20 @@ class About extends Me
   getDailyKnowledge()
   {
     return [
+      HTML,
+      CSS,
       JavaScript,
+      ECMAScript,
       TypeScript,
       Vuejs,
       React,
-      Webpack,
       Nodejs,
     ];
   }
 
   getFutureGoal()
   {
-    return 'To contribute to open source.';
+    return 'Strive to become a senior laborer，to contribute to open source.';
   } 
 }
 ````
