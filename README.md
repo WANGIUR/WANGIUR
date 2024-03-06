@@ -14,8 +14,6 @@ Here are some ideas to get you started:
 -->
 
 ````js
-- 💻 🖱
-
 namespace WANGIUR;
 
 class About extends Me
@@ -24,7 +22,7 @@ class About extends Me
   {
     return {
       workplace: {
-        company: 'Unknown Factory',
+        company: 'Factory',
         position: 'Chongqing China'
       }
     };
@@ -33,8 +31,6 @@ class About extends Me
   getDailyKnowledge()
   {
     return [
-      HTML,
-      CSS,
       JavaScript,
       ECMAScript,
       TypeScript,
@@ -51,3 +47,8 @@ class About extends Me
 }
 ````
 
+#### References
+
+- [vue3-typescript-admin]: https://github.com/WANGIUR/vue3-typescript-admin
+
+  
