@@ -49,6 +49,5 @@ class About extends Me
 
 #### References
 
-- [vue3-typescript-admin]: https://github.com/WANGIUR/vue3-typescript-admin
+- [vue3-typescript-admin](https://github.com/WANGIUR/vue3-typescript-admin)
 
-  
