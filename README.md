@@ -38,14 +38,14 @@ class About extends Me
   }
   
   getDailyLifeContent()
-	{
+  {
     return [
       Coding,
       Reading,
       Exercising,
     ]
   }
-
+  
   getFutureGoal()
   {
     return 'Study hard and make progress every day, and exercise well.';
