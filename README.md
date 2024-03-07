@@ -28,20 +28,22 @@ class About extends Me
     };
   }
 
-  getDailyKnowledge()
+  getDailyWorkContent()
   {
     return [
-      work: {
-      	Vuejs,
-        React,
-        Nodejs,
-      },
-  		life: {
-        Coding,
-        Reading,
-        Exercising,
-      }
+      Vuejs,
+      React,
+      Nodejs,
     ];
+  }
+  
+  getDailyLifeContent()
+	{
+    return [
+      Coding,
+      Reading,
+      Exercising,
+    ]
   }
 
   getFutureGoal()
