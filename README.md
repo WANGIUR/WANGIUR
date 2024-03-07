@@ -16,10 +16,8 @@ Here are some ideas to get you started:
 ````js
 namespace WANGIUR;
 
-class About extends Me
-{
-  getCurrentWorkplace() 
-  {
+class About extends Me { 
+  getCurrentWorkplace() {
     return {
       workplace: {
         company: 'mini-factory',
@@ -28,8 +26,7 @@ class About extends Me
     };
   }
 
-  getDailyWorkContent()
-  {
+  getDailyWorkContent() {
     return [
       Vuejs,
       React,
@@ -37,8 +34,7 @@ class About extends Me
     ];
   }
   
-  getDailyLifeContent()
-  {
+  getDailyLifeContent() {
     return [
       Coding,
       Reading,
@@ -46,8 +42,7 @@ class About extends Me
     ]
   }
   
-  getFutureGoal()
-  {
+  getFutureGoal() {
     return 'Study hard and make progress every day, and exercise well.';
   } 
 }
