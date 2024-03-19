@@ -30,7 +30,6 @@ class About extends Me {
     return [
       Vuejs,
       React,
-      Uniapp,
       Nodejs,
     ];
   }
