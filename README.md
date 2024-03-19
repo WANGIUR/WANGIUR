@@ -21,29 +21,22 @@ class About extends Me {
     return {
       workplace: {
         company: 'mini-factory',
-        position: 'Chongqing China'
+        position: 'China'
       }
     };
   }
 
-  getDailyWorkContent() {
+  getDailyKnowledge() {
     return [
       Vuejs,
       React,
+      Uniapp,
       Nodejs,
     ];
   }
   
-  getDailyLifeContent() {
-    return [
-      Coding,
-      Reading,
-      Exercising,
-    ]
-  }
-  
   getFutureGoal() {
-    return 'Study hard and make progress every day, and exercise well.';
+    return 'Keep coding, reading and exercising!';
   } 
 }
 ````
